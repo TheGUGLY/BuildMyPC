@@ -21,7 +21,7 @@ public class User {
 	private LocalDate dob;
 	
 	@Column(name="Date_of_creation")
-	private LocalDate doc = LocalDate.now(); 
+	private final LocalDate doc = LocalDate.now(); 
 	
 	@Column(name="Mobile_No",length=15,unique=true)
 	private String mob;
@@ -64,9 +64,10 @@ public class User {
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return super.toString();
+		return "User [email=" + email + ", name=" + name + ", dob=" + dob + ", doc=" + doc + ", mob=" + mob + "]";
 	}
+
+	
 	
 	
 }

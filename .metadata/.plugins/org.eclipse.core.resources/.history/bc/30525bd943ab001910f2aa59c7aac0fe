@@ -1,0 +1,21 @@
+package com.app.pojos;
+
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Order")
+public class Order {
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private int orderId;
+	private final LocalDate date_of_order = LocalDate.now();
+	date
+	status
+
+}

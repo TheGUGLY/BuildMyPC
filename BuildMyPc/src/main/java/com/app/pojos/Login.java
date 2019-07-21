@@ -33,6 +33,10 @@ public class Login {
 		public void setRole(String role) {
 			this.role = role;
 		}
+		@Override
+		public String toString() {
+			return "Login [email=" + email + ", password=" + password + ", role=" + role + "]";
+		}
 		
 		
 		

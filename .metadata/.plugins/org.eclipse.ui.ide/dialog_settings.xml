@@ -2,9 +2,12 @@
 <section name="Workbench">
 	<section name="ExternalProjectImportWizard">
 		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
-		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/Ajay/Desktop/Study DAC/Advance Java Technologies/last-day-data/last-day-data/spring-angular/back-end/day15_boot_demo2"/>
+			<item value="/Users/Ajay/Desktop/Study DAC/Advance Java Technologies/last-day-data/last-day-data/spring-angular/back-end/rest_server_demo2"/>
+			<item value="/Users/Ajay/Desktop/Study DAC/Advance Java Technologies/last-day-data/last_day_help/spring-angular/back-end/rest_server_demo2"/>
 			<item value="/Volumes/AJINKYA/demo"/>
 			<item value="/Users/Ajay/Desktop/Study DAC/Advance Java Technologies/last-day-data/spring-angular/back-end/day15_boot_demo2"/>
 			<item value="/Users/Ajay/Desktop/Study DAC/Advance Java Technologies/last-day-data/spring-angular/back-end"/>

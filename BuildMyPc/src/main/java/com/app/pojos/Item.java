@@ -50,9 +50,10 @@ public class Item {
 	}
 	@Override
 	public String toString() {
-		
-		return super.toString();
+		return "Item [itemId=" + itemId + ", product_id=" + product_id + ", quantity=" + quantity + ", price=" + price
+				+ ", order_id=" + order_id + "]";
 	}
+	
 	
 	
 	

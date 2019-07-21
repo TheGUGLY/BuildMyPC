@@ -1,0 +1,30 @@
+package com.app.pojos;
+
+import java.time.LocalDate;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import com.app.other.EnumStatus;
+
+@Entity
+@Table(name="Order")
+public class Order {
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="Order_Id",length=20)
+	private int orderId;
+	@Column(name="Date_of_order")
+	private final LocalDate doo = LocalDate.now();
+	
+	private EnumStatus status;
+	
+	private String email;
+	
+	private double price;
+	
+}

@@ -1,0 +1,5 @@
+package com.app.other;
+
+public enum EnumCategory {
+		Mouse,Keyboard,HardDisk,RAM,Processor,Display,Motherboard
+}
