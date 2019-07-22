@@ -12,38 +12,25 @@ import javax.persistence.Table;
 import com.app.other.EnumStatus;
 
 @Entity
-@Table(name="Order")
+@Table(name="order")
 public class Order {
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	@Column(name="Order_Id",length=20)
+	//@GeneratedValue(strategy=GenerationType.AUTO)
+	//@Column(name="orderId")
 	private int orderId;
 	
-	@Column(name="Date_of_order")
+	//@Column(name="dateOfOrder")
 	private final LocalDate doo = LocalDate.now();
 	
-	@Column(name="Order_Id",length =10)
+	//@Column(name="orderStatus",length =10)
 	private EnumStatus status;
 	
-	@Column(name="Email",length=30)
+	//@Column(name="email",length=30)
 	private String email;
 	
-	@Column(name="Total")
+	//@Column(name="total")
 	private double total;
-	
-	
 
-	public Order() {
-		super();
-	}
-
-	public Order(int orderId, EnumStatus status, String email, double total) {
-		super();
-		this.orderId = orderId;
-		this.status = status;
-		this.email = email;
-		this.total = total;
-	}
 
 	public int getOrderId() {
 		return orderId;

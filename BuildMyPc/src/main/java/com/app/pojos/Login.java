@@ -9,6 +9,7 @@ import com.app.other.EnumRole;
 
 @Entity
 @Table(name="Login")
+
 public class Login {
 		@Id
 		@Column(name="Email",length=30)

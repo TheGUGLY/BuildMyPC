@@ -13,17 +13,14 @@ import com.app.other.EnumRole;
 import com.app.pojos.Login;
 import com.app.pojos.User;
 
-@RestController
+
 @CrossOrigin(origins = "http://localhost:4200",allowedHeaders="*")
+@RestController
 @RequestMapping("/Common")
 public class CommonController {
 	@Autowired
 	private ICommonDao dao; 
 	
-	public CommonController() {
-		super();
-		System.out.println("in commonController");
-	}
 
 	@PostMapping("/login")
 	public EnumRole logIn(@RequestBody Login l){

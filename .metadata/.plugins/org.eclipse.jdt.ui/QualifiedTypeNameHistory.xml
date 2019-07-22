@@ -4,4 +4,16 @@
 <fullyQualifiedTypeName name="javax.persistence.Entity"/>
 <fullyQualifiedTypeName name="javax.persistence.Table"/>
 <fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.transaction.Transactional"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.EnumSet"/>
+<fullyQualifiedTypeName name="com.app.other.EnumCategory"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+<fullyQualifiedTypeName name="com.app.other.EnumRole"/>
+<fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
+<fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+<fullyQualifiedTypeName name="com.app.pojos.User"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="org.springframework.transaction.annotation.Transactional"/>
 </qualifiedTypeNameHistroy>

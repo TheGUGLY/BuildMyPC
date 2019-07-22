@@ -1802,3 +1802,302 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2019-07-22 20:54:34,248 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-07-22 20:54:34,250 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-07-22 20:54:34,250 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 20:58:01,037 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 20:58:01,041 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 20:58:01,047 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 20:58:01,052 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 20:58:01,052 [Worker-268] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 20:58:03,180 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 20:58:03,180 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 20:58:03,181 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 20:58:03,183 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 20:58:03,183 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 20:59:00,037 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 20:59:00,038 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 20:59:00,042 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 20:59:00,046 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 20:59:00,046 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 21:39:56,513 [Worker-289] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 21:39:56,517 [Worker-289] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 21:39:56,524 [Worker-289] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 21:39:56,537 [Worker-289] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 21:39:56,537 [Worker-289] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 21:43:18,544 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 21:43:18,549 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 21:43:18,552 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 21:43:18,555 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 21:43:18,555 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 21:46:58,288 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 21:46:58,308 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 21:46:58,319 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 21:46:58,329 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 21:46:58,329 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 21:47:19,108 [Worker-297] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 21:47:19,111 [Worker-297] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 21:47:19,116 [Worker-297] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 21:47:19,117 [Worker-297] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 21:47:19,118 [Worker-297] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 21:48:22,545 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 21:48:22,548 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 21:48:22,552 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 21:48:22,554 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 21:48:22,554 [Worker-296] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:00:01,810 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:00:01,813 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:00:01,817 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:00:01,821 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:00:01,821 [Worker-305] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:05:07,230 [Worker-308] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:spring_boot_movies:0.0.1-SNAPSHOT @ /Users/Ajay/Desktop/Study DAC/Advance Java Technologies/last-day-data/last-day-data/spring-angular/back-end/day15_boot_demo2/pom.xml.
+2019-07-22 22:05:09,250 [Worker-308] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:05:09,251 [Worker-308] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:05:09,293 [Worker-308] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:05:09,297 [Worker-308] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:05:09,298 [Worker-308] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Desktop/Study DAC/Advance Java Technologies/last-day-data/last-day-data/spring-angular/back-end/day15_boot_demo2/src/test/resources
+2019-07-22 22:05:15,003 [Worker-309] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:05:15,006 [Worker-309] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:05:15,009 [Worker-309] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:05:15,012 [Worker-309] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:05:15,012 [Worker-309] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Desktop/Study DAC/Advance Java Technologies/last-day-data/last-day-data/spring-angular/back-end/day15_boot_demo2/src/test/resources
+2019-07-22 22:05:15,211 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:05:15,212 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:05:15,217 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:05:15,219 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:05:15,219 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Desktop/Study DAC/Advance Java Technologies/last-day-data/last-day-data/spring-angular/back-end/day15_boot_demo2/src/test/resources
+2019-07-22 22:05:15,434 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:05:15,434 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:05:15,438 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:05:15,440 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:05:15,440 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Desktop/Study DAC/Advance Java Technologies/last-day-data/last-day-data/spring-angular/back-end/day15_boot_demo2/src/test/resources
+2019-07-22 22:05:15,633 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:05:15,633 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:05:15,636 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:05:15,639 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:05:15,639 [Worker-312] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Desktop/Study DAC/Advance Java Technologies/last-day-data/last-day-data/spring-angular/back-end/day15_boot_demo2/src/test/resources
+2019-07-22 22:05:15,794 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:05:15,794 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:05:15,797 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:05:15,799 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:05:15,800 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Desktop/Study DAC/Advance Java Technologies/last-day-data/last-day-data/spring-angular/back-end/day15_boot_demo2/src/test/resources
+2019-07-22 22:05:15,962 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:05:15,962 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:05:15,965 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:05:15,967 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:05:15,968 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Desktop/Study DAC/Advance Java Technologies/last-day-data/last-day-data/spring-angular/back-end/day15_boot_demo2/src/test/resources
+2019-07-22 22:05:16,130 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:05:16,130 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:05:16,134 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:05:16,140 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:05:16,140 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Desktop/Study DAC/Advance Java Technologies/last-day-data/last-day-data/spring-angular/back-end/day15_boot_demo2/src/test/resources
+2019-07-22 22:07:01,873 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:07:01,882 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:07:01,890 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:07:01,892 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:07:01,893 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:07:12,248 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:07:12,251 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:07:12,256 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:07:12,265 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:07:12,265 [Worker-303] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:08:08,936 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:08:08,939 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:08:08,945 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:08:08,948 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:08:08,950 [Worker-310] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:08:29,344 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:08:29,347 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:08:29,351 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:08:29,355 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:08:29,355 [Worker-307] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:11:26,260 [Worker-315] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:11:26,264 [Worker-315] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:11:26,268 [Worker-315] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:11:26,270 [Worker-315] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:11:26,271 [Worker-315] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:15:20,675 [Worker-314] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/2.1.9.RELEASE/spring-data-jpa-2.1.9.RELEASE-sources.jar
+2019-07-22 22:15:23,754 [Worker-314] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-jpa/2.1.9.RELEASE/spring-data-jpa-2.1.9.RELEASE-sources.jar
+2019-07-22 22:15:23,961 [Worker-314] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.data:spring-data-jpa:2.1.9.RELEASE
+2019-07-22 22:15:24,324 [Worker-316] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:15:24,329 [Worker-316] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:15:24,330 [Worker-316] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:15:24,332 [Worker-316] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:15:24,332 [Worker-316] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Desktop/Study DAC/Advance Java Technologies/last-day-data/last-day-data/spring-angular/back-end/day15_boot_demo2/src/test/resources
+2019-07-22 22:18:38,341 [Worker-317] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:18:38,345 [Worker-317] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:18:38,349 [Worker-317] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:18:38,351 [Worker-317] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:18:38,351 [Worker-317] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:19:39,244 [Worker-316] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:19:39,256 [Worker-316] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:19:39,265 [Worker-316] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:19:39,267 [Worker-316] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:19:39,268 [Worker-316] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:28:47,127 [Worker-323] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:28:47,136 [Worker-323] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:28:47,145 [Worker-323] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:28:47,149 [Worker-323] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:28:47,150 [Worker-323] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Desktop/Study DAC/Advance Java Technologies/last-day-data/last-day-data/spring-angular/back-end/day15_boot_demo2/src/test/resources
+2019-07-22 22:34:43,281 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:34:43,284 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:34:43,288 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:34:43,291 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:34:43,291 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:35:18,920 [Worker-325] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:35:18,924 [Worker-325] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:35:18,928 [Worker-325] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:35:18,930 [Worker-325] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:35:18,930 [Worker-325] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:35:39,194 [Worker-327] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:35:39,196 [Worker-327] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:35:39,200 [Worker-327] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:35:39,202 [Worker-327] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:35:39,202 [Worker-327] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:40:29,504 [Worker-325] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:40:29,507 [Worker-325] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:40:29,512 [Worker-325] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:40:29,515 [Worker-325] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:40:29,515 [Worker-325] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:40:36,934 [Worker-325] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:40:36,936 [Worker-325] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:40:36,941 [Worker-325] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:40:36,943 [Worker-325] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:40:36,943 [Worker-325] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:42:24,374 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:42:24,377 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:42:24,384 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:42:24,387 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:42:24,387 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:43:49,001 [Worker-331] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:43:49,004 [Worker-331] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:43:49,008 [Worker-331] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:43:49,009 [Worker-331] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:43:49,010 [Worker-331] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:44:52,115 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:44:52,117 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:44:52,121 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:44:52,125 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:44:52,125 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:50:38,055 [Worker-337] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:50:38,059 [Worker-337] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:50:38,063 [Worker-337] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:50:38,065 [Worker-337] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:50:38,066 [Worker-337] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:50:41,429 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:50:41,430 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:50:41,431 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:50:41,434 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:50:41,434 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:50:46,588 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:50:46,591 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:50:46,596 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:50:46,597 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:50:46,597 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Desktop/Study DAC/Advance Java Technologies/last-day-data/last-day-data/spring-angular/back-end/day15_boot_demo2/src/test/resources
+2019-07-22 22:51:09,427 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:51:09,431 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:51:09,435 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:51:09,438 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:51:09,438 [Worker-326] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:53:23,650 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:53:23,654 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:53:23,658 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:53:23,660 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:53:23,660 [Worker-332] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:54:56,777 [Worker-342] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:54:56,782 [Worker-342] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:54:56,790 [Worker-342] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:54:56,799 [Worker-342] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:54:56,799 [Worker-342] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:58:37,399 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:58:37,404 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:58:37,409 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:58:37,411 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:58:37,411 [Worker-344] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:58:51,093 [Worker-347] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:58:51,093 [Worker-347] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:58:51,096 [Worker-347] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:58:51,098 [Worker-347] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:58:51,098 [Worker-347] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:59:32,081 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:59:32,084 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:59:32,091 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:59:32,095 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:59:32,096 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 22:59:40,126 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:59:40,127 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 22:59:40,128 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 22:59:40,130 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 22:59:40,130 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 23:00:15,547 [Worker-347] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 23:00:15,550 [Worker-347] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 23:00:15,554 [Worker-347] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 23:00:15,558 [Worker-347] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 23:00:15,559 [Worker-347] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 23:00:34,169 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 23:00:34,169 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 23:00:34,174 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 23:00:34,176 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 23:00:34,176 [Worker-338] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 23:06:57,205 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 23:06:57,208 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 23:06:57,220 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 23:06:57,223 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 23:06:57,223 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 23:07:07,222 [Worker-343] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 23:07:07,226 [Worker-343] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 23:07:07,233 [Worker-343] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 23:07:07,236 [Worker-343] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 23:07:07,236 [Worker-343] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 23:08:41,193 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 23:08:41,196 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 23:08:41,199 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 23:08:41,201 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 23:08:41,201 [Worker-350] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 23:10:10,569 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 23:10:10,574 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 23:10:10,578 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 23:10:10,581 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 23:10:10,581 [Worker-352] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 23:13:02,216 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 23:13:02,266 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 23:13:02,326 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 23:13:02,333 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 23:13:02,334 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 23:18:00,918 [Worker-9] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.4.v20180909-1132.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.4.v20180909-1132.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.4.v20180909-1132.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.4.v20180909-1132.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/photon/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2019-07-22 23:18:13,996 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 23:18:14,019 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 23:18:14,028 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 23:18:14,031 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 23:18:14,032 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 23:18:47,450 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 23:18:47,457 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 23:18:47,463 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 23:18:47,467 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 23:18:47,467 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 23:21:31,437 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 23:21:31,448 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 23:21:31,450 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 23:21:31,456 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 23:21:31,456 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-22 23:22:39,012 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 23:22:39,016 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-22 23:22:39,022 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-22 23:22:39,033 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-22 23:22:39,034 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
