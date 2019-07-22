@@ -30,6 +30,20 @@ public class Order {
 	
 	@Column(name="Total")
 	private double total;
+	
+	
+
+	public Order() {
+		super();
+	}
+
+	public Order(int orderId, EnumStatus status, String email, double total) {
+		super();
+		this.orderId = orderId;
+		this.status = status;
+		this.email = email;
+		this.total = total;
+	}
 
 	public int getOrderId() {
 		return orderId;

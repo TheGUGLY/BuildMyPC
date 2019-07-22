@@ -25,6 +25,20 @@ public class User {
 	
 	@Column(name="Mobile_No",length=15,unique=true)
 	private String mob;
+	
+	
+
+	public User() {
+		super();
+	}
+
+	public User(String email, String name, LocalDate dob, String mob) {
+		super();
+		this.email = email;
+		this.name = name;
+		this.dob = dob;
+		this.mob = mob;
+	}
 
 	public String getEmail() {
 		return email;

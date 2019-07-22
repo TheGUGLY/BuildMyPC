@@ -21,6 +21,21 @@ public class Item {
 	private double price;
 	@Column(name="Order_Id",length=10)
 	private int order_id;
+	
+	
+	public Item() {
+		super();
+	}
+
+	public Item(int itemId, int product_id, int quantity, double price, int order_id) {
+		super();
+		this.itemId = itemId;
+		this.product_id = product_id;
+		this.quantity = quantity;
+		this.price = price;
+		this.order_id = order_id;
+	}
+	
 	public int getProduct_id() {
 		return product_id;
 	}

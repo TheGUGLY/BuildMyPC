@@ -1,0 +1,9 @@
+package com.app.dao;
+
+import java.util.List;
+
+public interface ICommonDao {
+	
+	public List<EnumCategory> fetchCategory();
+
+}

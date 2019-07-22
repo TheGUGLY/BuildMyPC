@@ -37,6 +37,25 @@ public class Product {
 	
 	@Column(name="Description")
 	private String description;
+	
+	
+
+	public Product() {
+		super();
+	}
+
+	public Product(int productId, String productName, String brand, String modelNumber, EnumCategory category,
+			double price, int quantity, String description) {
+		super();
+		this.productId = productId;
+		this.productName = productName;
+		this.brand = brand;
+		this.modelNumber = modelNumber;
+		this.category = category;
+		this.price = price;
+		this.quantity = quantity;
+		this.description = description;
+	}
 
 	public String getProductName() {
 		return productName;

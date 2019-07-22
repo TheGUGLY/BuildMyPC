@@ -1,0 +1,45 @@
+package com.app.dao;
+
+import java.util.Arrays;
+import java.util.List;
+
+import javax.transaction.Transactional;
+
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.app.other.EnumCategory;
+import com.app.pojos.Login;
+import com.app.pojos.User;
+
+
+@Repository
+@Transactional
+public class DaoImplementation implements IAdminDao, ICommonDao, IUserDao {
+
+	@Autowired
+	private SessionFactory sf;
+	
+	@Override
+	public List<EnumCategory> fetchCategory(){
+		List<EnumCategory> category= Arrays.asList(EnumCategory.values());
+		return category;
+	}
+	
+	
+	@Override
+	public String loginUser(Login login){
+		Login l = sf.getCurrentSession().createQuery("Select l From Login l where l.Email=:email",Login.class).setParameter("email",login.getEmail()).getSingleResult();
+		if(!l.getPassword().equals(login.getPassword())){
+			return "";	
+		}
+		return l.getRole();
+	}
+	
+	@Override
+	public User getUser(String Email){
+		return sf.getCurrentSession().createQuery("select u FROM User u where u.Email=:email", User.class).getSingleResult();
+	}
+	
+}
