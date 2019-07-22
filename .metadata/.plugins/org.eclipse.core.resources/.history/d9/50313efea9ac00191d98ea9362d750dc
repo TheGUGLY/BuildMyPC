@@ -6,7 +6,6 @@ spring.datasource.username=root
 spring.datasource.password=root
 spring.jpa.show-sql = true
 spring.jpa.hibernate.ddl-auto = update
-spring.jpa.properties.hibernate.globally_quoted_identifiers=true
 #logging.level.org.springframework.orm.hibernate5=DEBUG
 
 
