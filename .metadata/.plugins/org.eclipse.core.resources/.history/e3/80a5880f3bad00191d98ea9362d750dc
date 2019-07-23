@@ -6,5 +6,5 @@ import com.app.pojos.Login;
 
 
 public interface ILoginRepo extends JpaRepository<Login,Integer>{
-	Login findByEmail(String email);
+	Login fetchByEmail(String email);
 }

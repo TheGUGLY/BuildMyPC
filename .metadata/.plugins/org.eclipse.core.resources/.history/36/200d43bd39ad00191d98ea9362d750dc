@@ -32,11 +32,17 @@ public class CommonController {
 	@Autowired
 	private IProductRepo product;
 	
-	@GetMapping("/test")
-	public Login text(){
+
+	@PostMapping
+	public String addMovie(@RequestBody Login m) {
+		System.out.println("rest server : add movie " + m);
+		login.save(m);
+		return "Movie added";
+	}
+	@GetMapping
+	public String text(){
 		System.out.println("in test");
-		return login.findByEmail("ajay@gmail.com");
-		//return product.findByCategory(EnumCategory.HDD);
+		return "tested";
 		//return dao.fetchCategory();
 	}
 	@PostMapping("/login")

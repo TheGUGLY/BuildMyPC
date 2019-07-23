@@ -1,6 +1,8 @@
 package com.app.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,9 +14,9 @@ import com.app.dao.IUserRepo;
 
 
 //@CrossOrigin(origins = "http://localhost:4200",allowedHeaders="*")
-@RequestMapping("/User")
+@RequestMapping("/Admin")
 @RestController
-public class UserController {
+public class AdminController {
 	
 	@Autowired
 	private IItemRepo item;
@@ -27,5 +29,9 @@ public class UserController {
 	@Autowired
 	private IProductRepo product;
 	
-
+	@GetMapping
+	public String Testme(){
+		return "Tested";
+	}
+		
 }

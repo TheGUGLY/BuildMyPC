@@ -35,8 +35,8 @@ public class CommonController {
 	@GetMapping("/test")
 	public Login text(){
 		System.out.println("in test");
-		return login.findByEmail("ajay@gmail.com");
-		//return product.findByCategory(EnumCategory.HDD);
+		return login.fetchByEmail("ajay@gmail.com");
+		
 		//return dao.fetchCategory();
 	}
 	@PostMapping("/login")

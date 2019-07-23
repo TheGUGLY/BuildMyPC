@@ -33,10 +33,9 @@ public class CommonController {
 	private IProductRepo product;
 	
 	@GetMapping("/test")
-	public Login text(){
+	public String text(){
 		System.out.println("in test");
-		return login.findByEmail("ajay@gmail.com");
-		//return product.findByCategory(EnumCategory.HDD);
+		return "tested";
 		//return dao.fetchCategory();
 	}
 	@PostMapping("/login")

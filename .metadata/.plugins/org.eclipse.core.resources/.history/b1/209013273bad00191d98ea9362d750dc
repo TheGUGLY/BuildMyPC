@@ -8,5 +8,5 @@ import com.app.other.EnumCategory;
 import com.app.pojos.Product;
 
 public interface IProductRepo extends JpaRepository<Product,Integer>{
-	List<Product> findByCategory(EnumCategory category);
+	
 }
