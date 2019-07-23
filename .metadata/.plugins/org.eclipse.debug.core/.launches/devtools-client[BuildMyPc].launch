@@ -7,6 +7,7 @@
 <listEntry value="4"/>
 </listAttribute>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="BuildMyPc"/>
+<stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.springframework.ide.eclipse.boot.launch.BootMavenSourcePathProvider"/>
 <stringAttribute key="spring.devtools.remote.secret" value=""/>
 <stringAttribute key="spring.devtools.remote.url" value=""/>
 </launchConfiguration>

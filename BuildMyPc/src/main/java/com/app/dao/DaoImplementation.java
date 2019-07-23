@@ -21,12 +21,6 @@ public class DaoImplementation implements IAdminDao, ICommonDao, IUserDao {
 	@Autowired
 	private SessionFactory sf;
 	
-	
-	public DaoImplementation() {
-		super();
-		System.out.println("in dao ");
-	}
-
 
 //	@Override
 //	public List<EnumCategory> fetchCategory(){
