@@ -1,0 +1,5 @@
+package com.app.dao;
+
+public interface ICommonDao {
+	public boolean signUp(User user,Login login);
+}

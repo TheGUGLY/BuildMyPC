@@ -2,8 +2,12 @@ package com.app.pojos;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.Id;
 import javax.persistence.Table;
+
+import org.hibernate.annotations.ColumnDefault;
 
 import com.app.other.EnumRole;
 
@@ -16,6 +20,8 @@ public class Login {
 		private String email;
 		@Column(name="Password",length=30,nullable=false)
 		private String password;
+		@Enumerated(EnumType.STRING)
+		@ColumnDefault("USER")
 		@Column(name="Role",length=10,nullable=false)
 		private EnumRole role;
 		
@@ -32,6 +38,11 @@ public class Login {
 			this.role = role;
 		}
 		
+		public Login(String email, String password) {
+			this.email = email;
+			this.password = password;
+		}
+
 		public String getEmail() {
 			return email;
 		}

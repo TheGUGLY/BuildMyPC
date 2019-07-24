@@ -1,0 +1,10 @@
+package com.app.dao;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class DaoImplementation implements IAdminDao,IUserDao,ICommonDao{
+	
+	
+	
+}

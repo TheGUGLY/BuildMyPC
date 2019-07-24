@@ -1,15 +1,26 @@
 package com.app.pojos;
 
+import java.io.Serializable;
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@SuppressWarnings("serial")
 @Entity
 @Table(name="User")
-public class User {
+public class User implements Serializable{
 	@Id
 	@Column(length=30,name="Email")
 	private String email;
@@ -26,7 +37,17 @@ public class User {
 	@Column(name="Mobile_No",length=15,unique=true)
 	private String mob;
 	
-	
+	@OneToMany(fetch = FetchType.LAZY ,mappedBy="user",cascade=CascadeType.ALL)
+	@JsonIgnore
+	private List<Order> orders = new ArrayList<>();
+
+	public List<Order> getOrders() {
+		return orders;
+	}
+
+	public void setOrders(List<Order> orders) {
+		this.orders = orders;
+	}
 
 	public User() {
 		super();

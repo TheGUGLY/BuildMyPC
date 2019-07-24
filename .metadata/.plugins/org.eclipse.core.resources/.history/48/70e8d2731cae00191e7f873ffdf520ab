@@ -1,0 +1,31 @@
+package com.app.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.app.pojos.Order;
+import com.app.pojos.User;
+import com.app.service.IAdminService;
+
+
+//@CrossOrigin(origins = "http://localhost:4200",allowedHeaders="*")
+@RestController
+@RequestMapping("/common")
+public class CommonController {
+	@Autowired
+	private IAdminService service;
+	
+	@PostMapping("/test")
+	public List<Order> text(@RequestBody User user ){
+		System.out.println("in test");
+		return service.getUserOrders(user);
+	}
+	
+	
+	
+}

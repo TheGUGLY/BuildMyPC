@@ -1,0 +1,5 @@
+package com.app.service;
+
+public interface IAdminService {
+	User getUser(User user);
+}

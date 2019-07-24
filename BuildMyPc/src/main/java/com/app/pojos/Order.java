@@ -4,18 +4,25 @@ import java.time.LocalDate;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 import com.app.other.EnumStatus;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
-@Table(name="order")
+@Table(name="orders")
 public class Order {
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="Order_Id")
 	private int orderId;
 	
@@ -23,10 +30,13 @@ public class Order {
 	private final LocalDate doo = LocalDate.now();
 	
 	@Column(name="Order_Status",length =10)
+	@Enumerated(EnumType.STRING)
 	private EnumStatus status;
-	
-	@Column(name="Email",length=30)
-	private String email;
+
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name="user_email")
+	@JsonIgnore
+	private User user;
 	
 	@Column(name="total")
 	private double total;
@@ -47,13 +57,12 @@ public class Order {
 	public void setStatus(EnumStatus status) {
 		this.status = status;
 	}
-
-	public String getEmail() {
-		return email;
+	public User getUser() {
+		return user;
 	}
 
-	public void setEmail(String email) {
-		this.email = email;
+	public void setUser(User user) {
+		this.user = user;
 	}
 
 	public double getTotal() {
@@ -70,7 +79,7 @@ public class Order {
 
 	@Override
 	public String toString() {
-		return "Order [orderId=" + orderId + ", doo=" + doo + ", status=" + status + ", email=" + email + ", total="
+		return "Order [orderId=" + orderId + ", doo=" + doo + ", status=" + status + ", email=" + user + ", total="
 				+ total + "]";
 	}
 

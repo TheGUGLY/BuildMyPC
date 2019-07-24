@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=BuildMyPc/src\/main\/java&lt;com.app.dao{IAdminDao.java[IAdminDao" modifiers="513" timestamp="1563780117000"/>
-<typeInfo handle="=BuildMyPc/src\/main\/java&lt;com.app.dao{ICommonDao.java[ICommonDao" modifiers="513" timestamp="1563817210000"/>
-<typeInfo handle="=BuildMyPc/src\/main\/java&lt;com.app.dao{IUserDao.java[IUserDao" modifiers="513" timestamp="1563817210000"/>
+<typeInfo handle="=BuildMyPc/\/Users\/Ajay\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.2.0.BUILD-SNAPSHOT\/spring-data-jpa-2.2.0.BUILD-SNAPSHOT.jar&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1563541215000"/>
 </typeInfoHistroy>
