@@ -23,13 +23,9 @@ public class CommonController {
 		System.out.println("in test");
 		return service.getUser(user);
 	}
-	@PostMapping("/register")
-	public boolean registerUser(@RequestBody User user,@RequestBody String password){
+	@PostMapping("/signUp")
+	public boolean registerUser(@RequestBody User user,@RequestParam String password){
 		return service.signUp(user,password);
-	}
-	@PostMapping("/registerTest")
-	public boolean registerUserTest(@RequestBody User user){
-		return service.signUpTest(user);
 	}
 	
 }

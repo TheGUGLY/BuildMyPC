@@ -13,6 +13,7 @@ import com.app.other.EnumRole;
 
 @Entity
 @Table(name="Login")
+
 public class Login {
 		@Id
 		@Column(name="Email",length=30)
@@ -20,7 +21,7 @@ public class Login {
 		@Column(name="Password",length=30,nullable=false)
 		private String password;
 		@Enumerated(EnumType.STRING)
-		//@ColumnDefault("USER")
+		@ColumnDefault("USER")
 		@Column(name="Role",length=10,nullable=true)
 		private EnumRole role;
 		

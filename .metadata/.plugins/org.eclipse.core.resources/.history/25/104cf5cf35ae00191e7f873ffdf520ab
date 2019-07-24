@@ -27,9 +27,5 @@ public class CommonController {
 	public boolean registerUser(@RequestBody User user,@RequestBody String password){
 		return service.signUp(user,password);
 	}
-	@PostMapping("/registerTest")
-	public boolean registerUserTest(@RequestBody User user){
-		return service.signUpTest(user);
-	}
 	
 }

@@ -6,5 +6,5 @@ import com.app.pojos.User;
 public interface ICommonDao {
 	public boolean signUp(User user,Login login);
 
-	boolean signUpTest(User user);
+	boolean signUpTest(User user, Login login);
 }

@@ -24,7 +24,7 @@ public class AdminService implements IAdminService{
 	}
 	@Override
 	public boolean signUpTest(User user) {
-		return dao.signUpTest(user);
+		return dao.signUp(user);
 		
 	}
 	@Override

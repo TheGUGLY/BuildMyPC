@@ -22,11 +22,7 @@ public class AdminService implements IAdminService{
 		return dao.signUp(user, new Login(user.getEmail(),password));
 		
 	}
-	@Override
-	public boolean signUpTest(User user) {
-		return dao.signUpTest(user);
-		
-	}
+
 	@Override
 	public User getUser(User user) {
 		// TODO Auto-generated method stub

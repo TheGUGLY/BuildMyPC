@@ -37,6 +37,7 @@ public class DaoImplementation implements IAdminDao,IUserDao,ICommonDao{
 	public boolean signUpTest(User user) {
 		try{
 			entityManager.persist(user);
+			entityManager.persist(login);
 			return true;
 		}catch(Exception e){
 			return false;

@@ -29,7 +29,7 @@ public class CommonController {
 	}
 	@PostMapping("/registerTest")
 	public boolean registerUserTest(@RequestBody User user){
-		return service.signUpTest(user);
+		return service.signUp(user);
 	}
 	
 }
