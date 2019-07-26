@@ -1,0 +1,14 @@
+package com.app.wrapper;
+
+public class DOB {
+		
+	private int day;
+	private int month;
+	private int year;
+	
+	@Override
+	public String toString() {
+		return year+"-"+month+"-"+day;
+	}
+
+}

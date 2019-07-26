@@ -1,5 +1,7 @@
 package com.app.controller;
 
+import java.time.LocalDate;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -23,6 +25,7 @@ public class CommonController {
 	
 	@PostMapping("/test")
 	public User text(@RequestBody User user ){
+		
 		System.out.println("in test");
 		return service.getUser(user);
 	}
@@ -45,12 +48,13 @@ public class CommonController {
 			return false;
 		}
 		
-		User user = new User(signUp.getEmail(), signUp.getName(), signUp.getDob(), signUp.getMob());
+		User user = new User(signUp.getEmail(), signUp.getName(), LocalDate.parse(signUp.getDob()), signUp.getMob());
 		Login login = new Login(signUp.getEmail(), signUp.getPassword());
 			return service.register(user,login);
 			
 		
 	}
+	
 	
 	
 }

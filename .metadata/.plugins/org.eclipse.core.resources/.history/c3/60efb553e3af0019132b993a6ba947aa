@@ -1,0 +1,42 @@
+package com.app.wrapper;
+
+import java.time.LocalDate;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+public class WrapperSignUp {
+	private String email;
+	private String name;
+	private JSONObject dob;
+	private String mob;
+	private String password;
+	public String getEmail() {
+		return email;
+	}
+	public String getName() {
+		return name;
+	}
+	
+	public String getMob() {
+		return mob;
+	}
+	public String getPassword() {
+		return password;
+	}
+	
+	@Override
+	public String toString() {
+		try {
+			return "WrapperSignUp [email=" + email + ", name=" + name + ", dob=" + dob.getInt("year") + ", mob=" + mob + ", password="
+					+ password + "]";
+		} catch (JSONException e) {
+			 
+			e.printStackTrace();
+			return "exception occured";
+		}
+	}
+	
+	
+	
+}
