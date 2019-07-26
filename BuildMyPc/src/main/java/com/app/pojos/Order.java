@@ -16,7 +16,6 @@ import javax.persistence.Table;
 
 import com.app.other.EnumStatus;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Entity
 @Table(name="orders")

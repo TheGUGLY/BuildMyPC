@@ -1,0 +1,13 @@
+package com.app.dao;
+
+import com.app.pojos.Login;
+import com.app.pojos.User;
+
+public interface ICommonDao {
+	public boolean register(User user,Login login);
+	public boolean ifExist(String email);
+	
+	public Login getLogin(String email);
+
+	
+}

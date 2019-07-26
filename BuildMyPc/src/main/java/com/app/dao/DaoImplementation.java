@@ -23,17 +23,35 @@ public class DaoImplementation implements IAdminDao,IUserDao,ICommonDao{
 	
 	
 	@Override
-	public boolean signUp(User user, Login login) {
-		try{
-			entityManager.persist(user);
-			entityManager.persist(login);
-			return true;
-		}catch(Exception e){
-			return false;
-		}
+	public boolean ifExist(String email) {
+			try{
+				Login login =entityManager.find(Login.class, email);
+				if(login==null)
+					return true;
+				return false;
+			}
+			catch(Exception e){
+				return false;
+			}
+		
+	}
+
+
+	@Override
+	public String register(User user, Login login) {
+		//try{
+		//	System.out.println(user);
+			//entityManager.persist(user);
+			//entityManager.persist(login);
+			return "true";
+//		}catch(Exception e){
+//			System.out.println(e.getMessage());
+//			return "false";
+//		}
 	}
 	
 	
+	@Override
 	public List<Order> getUserOrders(User user){
 		return entityManager.find(User.class, user.getEmail()).getOrders();
 	}

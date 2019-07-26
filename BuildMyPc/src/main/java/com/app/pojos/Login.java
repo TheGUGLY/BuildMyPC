@@ -20,11 +20,8 @@ public class Login {
 		@Column(name="Password",length=30,nullable=false)
 		private String password;
 		@Enumerated(EnumType.STRING)
-		//@ColumnDefault("USER")
-		@Column(name="Role",length=10,nullable=true)
-		private EnumRole role;
-		
-		
+		@Column(name="Role",length=10)
+		private EnumRole role = EnumRole.USER;
 		
 		public Login() {
 			super();

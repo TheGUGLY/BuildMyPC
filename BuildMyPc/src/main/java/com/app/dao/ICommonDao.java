@@ -4,7 +4,8 @@ import com.app.pojos.Login;
 import com.app.pojos.User;
 
 public interface ICommonDao {
-	public boolean signUp(User user,Login login);
+	public String register(User user,Login login);
+	public boolean ifExist(String email);
 	
 	public Login getLogin(String email);
 

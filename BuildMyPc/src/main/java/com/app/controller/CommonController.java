@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.app.pojos.Login;
 import com.app.pojos.User;
 import com.app.service.ICommonService;
+import com.app.wrapper.WrapperSignUp;
 
 
 //@CrossOrigin(origins = "http://localhost:4200",allowedHeaders="*")
@@ -36,10 +37,19 @@ public class CommonController {
 		ResponseEntity.status(HttpStatus.FOUND);
 		return role; 
 	}
+	
 	@PostMapping("/register")
-	public boolean registerUser(@RequestBody User user,@RequestBody String password){
+	public String registerUser(@RequestBody WrapperSignUp signUp){
 		
-		return service.signUp(user,password);
+//		if(service.ifExist(signUp.getEmail())){
+//			return false;
+//		}
+		
+		User user = new User(signUp.getEmail(), signUp.getName(), signUp.getDob(), signUp.getMob());
+		Login login = new Login(signUp.getEmail(), signUp.getPassword());
+			return service.register(user,login);
+			
+		
 	}
 	
 	
