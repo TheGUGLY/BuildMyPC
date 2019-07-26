@@ -1,9 +1,0 @@
-package com.app.dao;
-
-import java.util.Set;
-
-public interface ICommonDao {
-	
-	public List<String> fetchCategory();
-
-}

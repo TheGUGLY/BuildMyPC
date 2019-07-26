@@ -1,0 +1,13 @@
+package com.app.service;
+
+import com.app.pojos.Login;
+
+public class CommonService implements ICommonService{
+
+	@Override
+	public boolean login(Login login) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

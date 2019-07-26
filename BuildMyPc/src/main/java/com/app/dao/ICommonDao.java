@@ -5,6 +5,8 @@ import com.app.pojos.User;
 
 public interface ICommonDao {
 	public boolean signUp(User user,Login login);
+	
+	public Login getLogin(String email);
 
-	boolean signUpTest(User user);
+	
 }

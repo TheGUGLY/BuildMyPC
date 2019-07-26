@@ -102,6 +102,8 @@
 	<section name="OverrideMethodDialog">
 		<item value="true" key="showtypes"/>
 	</section>
+	<section name="OccurrencesSearchResultPage">
+	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="BuildPathsPropertyPage">
