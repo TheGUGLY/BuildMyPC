@@ -26,8 +26,16 @@ public class CommonService implements ICommonService{
 		return null;
 	}
 	@Override
-	public boolean register(User user, Login login) {
-		return dao.register(user, login);
+	public String register(User user, Login login) {
+		System.out.println(user);
+		System.out.println(login);
+		try{
+				String toReturn = dao.register(user, login);
+				return toReturn;
+			}
+		catch(Exception e){
+			return "nothing";
+		}
 		
 	}
 	
@@ -36,8 +44,8 @@ public class CommonService implements ICommonService{
 	@Override
 	public boolean ifExist(String email) {
 		return dao.ifExist(email);
+		
 	}
-	
 	@Override
 	public User getUser(User user) {
 		// TODO Auto-generated method stub

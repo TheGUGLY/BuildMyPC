@@ -39,11 +39,11 @@ public class CommonController {
 	}
 	
 	@PostMapping("/register")
-	public boolean registerUser(@RequestBody WrapperSignUp signUp){
+	public String registerUser(@RequestBody WrapperSignUp signUp){
 		
-		if(service.ifExist(signUp.getEmail())){
-			return false;
-		}
+//		if(service.ifExist(signUp.getEmail())){
+//			return false;
+//		}
 		
 		User user = new User(signUp.getEmail(), signUp.getName(), signUp.getDob(), signUp.getMob());
 		Login login = new Login(signUp.getEmail(), signUp.getPassword());

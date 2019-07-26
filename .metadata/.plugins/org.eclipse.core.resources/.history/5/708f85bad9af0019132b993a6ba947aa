@@ -37,7 +37,6 @@ public class CommonService implements ICommonService{
 	public boolean ifExist(String email) {
 		return dao.ifExist(email);
 	}
-	
 	@Override
 	public User getUser(User user) {
 		// TODO Auto-generated method stub

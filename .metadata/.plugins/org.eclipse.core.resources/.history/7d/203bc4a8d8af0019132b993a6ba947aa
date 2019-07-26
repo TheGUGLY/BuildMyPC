@@ -15,6 +15,6 @@ public interface ICommonService {
 	
 	List<Order> getUserOrders(User user);
 
-	public boolean register(User user, Login login);
+	public String register(User user, Login login);
 	public boolean ifExist(String email);
 }
