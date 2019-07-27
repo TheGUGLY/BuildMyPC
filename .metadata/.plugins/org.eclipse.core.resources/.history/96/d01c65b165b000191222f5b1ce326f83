@@ -9,7 +9,6 @@ import org.springframework.transaction.annotation.Transactional;
 import com.app.dao.ICommonDao;
 import com.app.pojos.Login;
 import com.app.pojos.Order;
-import com.app.pojos.Product;
 import com.app.pojos.User;
 
 @Service
@@ -32,11 +31,7 @@ public class CommonService implements ICommonService{
 		
 	}
 	
-	@Override
-	public List<Product> fetchProduct(String category) {
-		return dao.getProduct(category);
-		
-	}
+	
 	
 	@Override
 	public boolean ifExist(String email) {

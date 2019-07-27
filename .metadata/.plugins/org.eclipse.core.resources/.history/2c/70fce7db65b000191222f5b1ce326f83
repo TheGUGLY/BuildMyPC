@@ -4,21 +4,17 @@ import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-import javax.persistence.Query;
 
 import org.springframework.stereotype.Repository;
 
-import com.app.other.EnumCategory;
 import com.app.pojos.Login;
 import com.app.pojos.Order;
-import com.app.pojos.Product;
 import com.app.pojos.User;
 
 @Repository
 public class DaoImplementation implements IAdminDao,IUserDao,ICommonDao{
 	@PersistenceContext
 	EntityManager entityManager;
-	Query q;
 
 	@Override
 	public User getUser(User user) {
@@ -34,17 +30,6 @@ public class DaoImplementation implements IAdminDao,IUserDao,ICommonDao{
 				return false;
 		
 	}
-	
-	@Override
-	public List<Product> getProduct(String category) {
-		 q=entityManager.createQuery("SELECT p from Product p where p.category =: category");
-		 entityManager.getEntityManagerFactory().addNamedQuery("fetchByCategory", q);
-		Query nq = entityManager.createNamedQuery("fetchByCategory");
-		nq.setParameter("category",EnumCategory.valueOf(category));
-		@SuppressWarnings("unchecked")
-		List<Product> products = nq.getResultList();
-		return products;
-		}
 
 
 	@Override

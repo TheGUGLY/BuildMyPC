@@ -35,7 +35,6 @@ public class DaoImplementation implements IAdminDao,IUserDao,ICommonDao{
 		
 	}
 	
-	@Override
 	public List<Product> getProduct(String category) {
 		 q=entityManager.createQuery("SELECT p from Product p where p.category =: category");
 		 entityManager.getEntityManagerFactory().addNamedQuery("fetchByCategory", q);

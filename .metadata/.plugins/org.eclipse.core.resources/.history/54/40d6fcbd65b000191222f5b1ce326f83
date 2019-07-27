@@ -4,7 +4,6 @@ import java.util.List;
 
 import com.app.pojos.Login;
 import com.app.pojos.Order;
-import com.app.pojos.Product;
 import com.app.pojos.User;
 
 public interface ICommonService {
@@ -18,6 +17,4 @@ public interface ICommonService {
 
 	public boolean register(User user, Login login);
 	public boolean ifExist(String email);
-
-	List<Product> fetchProduct(String category);
 }
