@@ -6,6 +6,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Repository;
 
 import com.app.other.EnumCategory;
@@ -72,4 +73,32 @@ public class DaoImplementation implements IAdminDao,IUserDao,ICommonDao{
 	public Login getLogin(String email) {
 		return entityManager.find(Login.class, email);
 	}
+
+
+	@Override
+	public boolean addProduct(Product product) {
+		try{
+			entityManager.persist(product); 
+			return true;
+		}catch(Exception e ) {
+			System.out.println(e.getMessage());
+			return false;
+		}
+	}
+
+
+	@Override
+	public void deleteProduct(Product p) {
+		entityManager.remove(entityManager.find(Product.class,p.getProductId()));
+		}
+
+
+	@Override
+	public ResponseEntity<Object> updateProduct(Product product) {
+			entityManager.persist(product);
+		return null;
+	}
+
+
+	
 }

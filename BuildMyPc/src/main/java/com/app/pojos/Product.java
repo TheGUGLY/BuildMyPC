@@ -2,6 +2,8 @@ package com.app.pojos;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -27,6 +29,7 @@ public class Product {
 	private String modelNumber;
 	
 	@Column(name="Category",length=30)
+	@Enumerated(EnumType.STRING)
 	private EnumCategory category;
 	
 	@Column(name="Price")
@@ -122,6 +125,10 @@ public class Product {
 		return "Product [productId=" + productId + ", productName=" + productName + ", modelNumber=" + modelNumber
 				+ ", category=" + category + ", price=" + price + ", quantity=" + quantity + ", description="
 				+ description + "]";
+	}
+
+	public Product(int productId) {
+		this.productId = productId;
 	}
 
 	
