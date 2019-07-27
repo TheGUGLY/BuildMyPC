@@ -6523,3 +6523,8 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2019-07-27 02:49:39,277 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-07-27 02:49:39,280 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-07-27 02:49:39,280 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-27 03:01:43,996 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 03:01:44,003 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-27 03:01:44,011 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-27 03:01:44,014 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 03:01:44,014 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
