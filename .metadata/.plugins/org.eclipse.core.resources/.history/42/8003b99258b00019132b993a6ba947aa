@@ -34,7 +34,6 @@ public class CommonController {
 		return service.getUser(user);
 	}
 	
-	
 	@PostMapping("/login")
 	public String loginUser(@RequestBody Login login){
 		String role = service.login(login);
@@ -43,7 +42,7 @@ public class CommonController {
 			return "User Doesn't Exist.";
 		}
 		ResponseEntity.status(HttpStatus.FOUND);
-		return  jwtToken = Jwts.builder().setSubject(login.getEmail()).claim("role", role).setIssuedAt(new Date())
+		 jwtToken = Jwts.builder().setSubject(login.getEmail()).claim("role", role).setIssuedAt(new Date())
 		            .signWith(SignatureAlgorithm.HS256, "secretkey").compact();
 
 	}

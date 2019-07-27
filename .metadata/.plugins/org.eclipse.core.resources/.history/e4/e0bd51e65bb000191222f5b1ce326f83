@@ -16,9 +16,6 @@ import com.app.pojos.User;
 import com.app.service.ICommonService;
 import com.app.wrapper.WrapperSignUp;
 
-import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.SignatureAlgorithm;
-
 
 //@CrossOrigin(origins = "http://localhost:4200",allowedHeaders="*")
 @RestController
@@ -34,7 +31,7 @@ public class CommonController {
 		return service.getUser(user);
 	}
 	
-	
+	@SuppressWarnings("deprecation")
 	@PostMapping("/login")
 	public String loginUser(@RequestBody Login login){
 		String role = service.login(login);

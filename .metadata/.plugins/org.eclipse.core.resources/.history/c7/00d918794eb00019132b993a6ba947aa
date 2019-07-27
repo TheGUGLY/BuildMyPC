@@ -1,7 +1,6 @@
 package com.app.controller;
 
 import java.time.LocalDate;
-import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -16,9 +15,6 @@ import com.app.pojos.User;
 import com.app.service.ICommonService;
 import com.app.wrapper.WrapperSignUp;
 
-import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.SignatureAlgorithm;
-
 
 //@CrossOrigin(origins = "http://localhost:4200",allowedHeaders="*")
 @RestController
@@ -26,14 +22,13 @@ import io.jsonwebtoken.SignatureAlgorithm;
 public class CommonController {
 	@Autowired
 	private ICommonService service;
-	String jwtToken;
+	
 	@PostMapping("/test")
 	public User text(@RequestBody User user ){
 		
 		System.out.println("in test");
 		return service.getUser(user);
 	}
-	
 	
 	@PostMapping("/login")
 	public String loginUser(@RequestBody Login login){
@@ -43,13 +38,12 @@ public class CommonController {
 			return "User Doesn't Exist.";
 		}
 		ResponseEntity.status(HttpStatus.FOUND);
-		return  jwtToken = Jwts.builder().setSubject(login.getEmail()).claim("role", role).setIssuedAt(new Date())
-		            .signWith(SignatureAlgorithm.HS256, "secretkey").compact();
-
+		return role; 
 	}
 	
 	@PostMapping("/register")
 	public boolean registerUser(@RequestBody WrapperSignUp signUp){
+		
 		if(service.ifExist(signUp.getEmail())){
 			return false;
 		}
@@ -58,6 +52,10 @@ public class CommonController {
 		Login login = new Login(signUp.getEmail(), signUp.getPassword());
 		System.out.println(user);
 			return service.register(user,login);
+			
+		
 	}
+	
+	
 	
 }

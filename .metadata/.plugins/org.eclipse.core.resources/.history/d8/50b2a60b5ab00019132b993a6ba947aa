@@ -34,7 +34,7 @@ public class CommonController {
 		return service.getUser(user);
 	}
 	
-	
+	@SuppressWarnings("deprecation")
 	@PostMapping("/login")
 	public String loginUser(@RequestBody Login login){
 		String role = service.login(login);

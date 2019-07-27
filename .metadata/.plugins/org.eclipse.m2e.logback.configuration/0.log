@@ -6528,3 +6528,160 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2019-07-27 03:01:44,011 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-07-27 03:01:44,014 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-07-27 03:01:44,014 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-27 14:41:10,069 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 14:41:10,073 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-27 14:41:10,080 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-27 14:41:10,084 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 14:41:10,084 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-27 14:43:40,848 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 14:43:40,855 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-27 14:43:40,863 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-27 14:43:40,865 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 14:43:40,866 [Worker-250] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-27 14:45:31,268 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 14:45:31,272 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-27 14:45:31,277 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-27 14:45:31,280 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 14:45:31,280 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-27 15:09:34,224 [Worker-265] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.GRInfotech:BuildMyPc:0.0.1-SNAPSHOT @ /Users/Ajay/Documents/BuildMyPC/BuildMyPc/pom.xml.
+2019-07-27 15:09:36,735 [Worker-265] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.pom
+2019-07-27 15:09:37,477 [Worker-261] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.pom
+2019-07-27 15:09:37,477 [Worker-265] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.pom
+2019-07-27 15:09:38,254 [Worker-261] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.pom
+2019-07-27 15:09:39,348 [Worker-265] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.pom
+2019-07-27 15:09:40,090 [Worker-265] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.pom
+2019-07-27 15:09:40,474 [Worker-261] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.pom
+2019-07-27 15:09:40,813 [Worker-261] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.pom
+2019-07-27 15:09:40,839 [Worker-265] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/io/jsonwebtoken/jjwt-root/0.10.7/jjwt-root-0.10.7.pom
+2019-07-27 15:09:41,623 [Worker-265] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/jsonwebtoken/jjwt-root/0.10.7/jjwt-root-0.10.7.pom
+2019-07-27 15:09:41,623 [Worker-261] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/io/jsonwebtoken/jjwt-root/0.10.7/jjwt-root-0.10.7.pom
+2019-07-27 15:09:42,544 [Worker-265] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-root/0.10.7/jjwt-root-0.10.7.pom
+2019-07-27 15:09:42,546 [Worker-261] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-root/0.10.7/jjwt-root-0.10.7.pom
+2019-07-27 15:09:43,780 [Worker-265] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-root/0.10.7/jjwt-root-0.10.7.pom
+2019-07-27 15:09:43,781 [Worker-261] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-root/0.10.7/jjwt-root-0.10.7.pom
+2019-07-27 15:09:44,694 [Worker-261] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.jar
+2019-07-27 15:09:44,695 [Worker-265] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.jar
+2019-07-27 15:09:45,923 [Worker-261] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.jar
+2019-07-27 15:09:45,923 [Worker-265] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.jar
+2019-07-27 15:09:46,862 [Worker-265] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.jar
+2019-07-27 15:09:46,868 [Worker-261] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.jar
+2019-07-27 15:09:48,077 [Worker-261] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.jar
+2019-07-27 15:09:48,079 [Worker-265] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.10.7/jjwt-api-0.10.7.jar
+2019-07-27 15:09:50,189 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 15:09:50,204 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-27 15:09:50,204 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-27 15:09:50,207 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 15:09:50,207 [Worker-265] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-27 15:09:50,418 [Worker-265] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-07-27 15:09:51,252 [Worker-265] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.GRInfotech:BuildMyPc:0.0.1-SNAPSHOT @ /Users/Ajay/Documents/BuildMyPC/BuildMyPc/pom.xml.
+2019-07-27 15:09:52,694 [Worker-265] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BuildMyPc/src/main/java
+2019-07-27 15:09:52,694 [Worker-265] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BuildMyPc/src/main/resources
+2019-07-27 15:09:52,694 [Worker-265] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BuildMyPc/src/main/resources
+2019-07-27 15:09:52,694 [Worker-265] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BuildMyPc/src/test/java
+2019-07-27 15:09:52,861 [Worker-265] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2019-07-27 15:09:54,113 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 15:09:54,113 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-27 15:09:54,154 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-27 15:09:54,156 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 15:09:54,156 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-27 15:17:40,383 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 15:17:40,398 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-27 15:17:40,406 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-27 15:17:40,409 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 15:17:40,409 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-27 15:53:27,953 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 15:53:27,957 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-27 15:53:27,965 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-27 15:53:27,968 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 15:53:27,968 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-27 15:55:11,030 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 15:55:11,038 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-27 15:55:11,046 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-27 15:55:11,051 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 15:55:11,051 [Worker-276] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-27 16:02:29,227 [Worker-277] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.GRInfotech:BuildMyPc:0.0.1-SNAPSHOT @ /Users/Ajay/Documents/BuildMyPC/BuildMyPc/pom.xml.
+2019-07-27 16:02:31,139 [Worker-277] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/com/auth0/java-jwt/3.8.1/java-jwt-3.8.1.pom
+2019-07-27 16:02:31,753 [Worker-277] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/auth0/java-jwt/3.8.1/java-jwt-3.8.1.pom
+2019-07-27 16:02:34,094 [Worker-277] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/auth0/java-jwt/3.8.1/java-jwt-3.8.1.pom
+2019-07-27 16:02:34,413 [Worker-277] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/auth0/java-jwt/3.8.1/java-jwt-3.8.1.pom
+2019-07-27 16:02:35,038 [Worker-277] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/commons-codec/commons-codec/1.12/commons-codec-1.12.pom
+2019-07-27 16:02:35,644 [Worker-277] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/commons-codec/commons-codec/1.12/commons-codec-1.12.pom
+2019-07-27 16:02:36,053 [Worker-277] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.12/commons-codec-1.12.pom
+2019-07-27 16:02:36,755 [Worker-277] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.12/commons-codec-1.12.pom
+2019-07-27 16:02:37,490 [Worker-277] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/com/auth0/java-jwt/3.8.1/java-jwt-3.8.1.jar
+2019-07-27 16:02:38,102 [Worker-277] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/commons-codec/commons-codec/1.12/commons-codec-1.12.jar
+2019-07-27 16:02:38,716 [Worker-277] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/com/auth0/java-jwt/3.8.1/java-jwt-3.8.1.jar
+2019-07-27 16:02:39,330 [Worker-277] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/commons-codec/commons-codec/1.12/commons-codec-1.12.jar
+2019-07-27 16:02:39,711 [Worker-277] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/auth0/java-jwt/3.8.1/java-jwt-3.8.1.jar
+2019-07-27 16:02:40,563 [Worker-277] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/auth0/java-jwt/3.8.1/java-jwt-3.8.1.jar
+2019-07-27 16:02:40,971 [Worker-277] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.12/commons-codec-1.12.jar
+2019-07-27 16:02:43,146 [Worker-277] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.12/commons-codec-1.12.jar
+2019-07-27 16:02:44,974 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 16:02:44,989 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-27 16:02:44,989 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-27 16:02:44,991 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 16:02:44,991 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-27 16:02:48,219 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 16:02:48,222 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-27 16:02:48,260 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-27 16:02:48,263 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 16:02:48,263 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-27 16:04:00,339 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 16:04:00,349 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-27 16:04:00,359 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-27 16:04:00,364 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 16:04:00,364 [Worker-279] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-27 16:04:25,371 [Worker-282] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.GRInfotech:BuildMyPc:0.0.1-SNAPSHOT @ /Users/Ajay/Documents/BuildMyPC/BuildMyPc/pom.xml.
+2019-07-27 16:04:27,941 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 16:04:27,945 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-27 16:04:27,945 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-27 16:04:27,947 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 16:04:27,947 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-27 16:04:29,826 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 16:04:29,827 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-27 16:04:29,852 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-27 16:04:29,853 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 16:04:29,853 [Worker-282] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-27 16:05:35,202 [Worker-281] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.GRInfotech:BuildMyPc:0.0.1-SNAPSHOT @ /Users/Ajay/Documents/BuildMyPC/BuildMyPc/pom.xml.
+2019-07-27 16:05:37,301 [Worker-281] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.pom
+2019-07-27 16:05:37,793 [Worker-281] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.pom
+2019-07-27 16:05:40,169 [Worker-281] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.pom
+2019-07-27 16:11:59,653 [Worker-285] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.pom
+2019-07-27 16:12:00,269 [Worker-285] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.pom
+2019-07-27 16:12:00,882 [Worker-285] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/snapshot/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar
+2019-07-27 16:12:01,496 [Worker-285] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.spring.io/milestone/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar
+2019-07-27 16:12:01,906 [Worker-285] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar
+2019-07-27 16:12:03,138 [Worker-285] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar
+2019-07-27 16:16:16,884 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.GRInfotech:BuildMyPc:0.0.1-SNAPSHOT @ /Users/Ajay/Documents/BuildMyPC/BuildMyPc/pom.xml.
+2019-07-27 16:16:20,716 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 16:16:20,729 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-27 16:16:20,780 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-27 16:16:20,784 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 16:16:20,784 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-27 16:16:24,036 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 16:16:24,051 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-27 16:16:24,054 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-27 16:16:24,092 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 16:16:24,093 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-27 16:16:44,843 [Worker-10] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2019-07-27 16:16:46,582 [Worker-10] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.GRInfotech:BuildMyPc:0.0.1-SNAPSHOT @ /Users/Ajay/Documents/BuildMyPC/BuildMyPc/pom.xml.
+2019-07-27 16:16:48,827 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BuildMyPc/src/main/java
+2019-07-27 16:16:48,829 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BuildMyPc/src/main/resources
+2019-07-27 16:16:48,830 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BuildMyPc/src/main/resources
+2019-07-27 16:16:48,831 [Worker-10] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BuildMyPc/src/test/java
+2019-07-27 16:16:49,394 [Worker-10] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2019-07-27 16:16:51,248 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 16:16:51,259 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-27 16:16:51,290 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-27 16:16:51,294 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 16:16:51,294 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-27 16:17:16,712 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 16:17:16,718 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-27 16:17:16,728 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-27 16:17:16,732 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 16:17:16,734 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
+2019-07-27 16:17:21,497 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 16:17:21,500 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-07-27 16:17:21,504 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-07-27 16:17:21,507 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-27 16:17:21,508 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/Ajay/Documents/BuildMyPC/BuildMyPc/src/test/resources
