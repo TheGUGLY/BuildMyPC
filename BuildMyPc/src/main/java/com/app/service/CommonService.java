@@ -1,0 +1,60 @@
+package com.app.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.app.dao.ICommonDao;
+import com.app.pojos.Login;
+import com.app.pojos.Order;
+import com.app.pojos.Product;
+import com.app.pojos.User;
+
+@Service
+@Transactional
+public class CommonService implements ICommonService{
+	@Autowired
+	private ICommonDao dao;
+
+	@Override
+	public String login(Login login) {
+		Login l = dao.getLogin(login.getEmail());
+		if(l.getPassword().equals(login.getPassword())){
+			return l.getRole().toString();
+		}
+		return null;
+	}
+	@Override
+	public boolean register(User user, Login login) {
+		return dao.register(user, login);
+		
+	}
+	
+	
+	
+	@Override
+	public boolean ifExist(String email) {
+		return dao.ifExist(email);
+	}
+	
+	@Override
+	public User getUser(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Order> getUserOrders(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	@Override
+	public List<Product> fetchProduct(String category) {
+		return dao.getProduct(category);
+		
+	}
+
+}

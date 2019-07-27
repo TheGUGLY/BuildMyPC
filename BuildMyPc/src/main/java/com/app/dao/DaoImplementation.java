@@ -3,16 +3,25 @@ package com.app.dao;
 import java.util.List;
 import java.util.Optional;
 
+<<<<<<< Updated upstream
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+=======
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
+
+>>>>>>> Stashed changes
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.app.other.EnumCategory;
 import com.app.pojos.Login;
+<<<<<<< Updated upstream
 
 @Repository
 @Transactional
@@ -25,6 +34,24 @@ public class DaoImplementation implements IAdminDao, ICommonDao, IUserDao {
 	public DaoImplementation() {
 		super();
 		System.out.println("in dao ");
+=======
+import com.app.pojos.Order;
+import com.app.pojos.Product;
+import com.app.pojos.User;
+
+@Repository
+public class DaoImplementation implements IAdminDao,IUserDao,ICommonDao{
+	@PersistenceContext
+	private EntityManager entityManager;
+	private Query q;
+
+	public DaoImplementation() {
+		}
+	
+	@Override
+	public User getUser(User user) {
+		return entityManager.find(User.class, user.getEmail());
+>>>>>>> Stashed changes
 	}
 
 
@@ -190,6 +217,7 @@ public class DaoImplementation implements IAdminDao, ICommonDao, IUserDao {
 
 
 	@Override
+<<<<<<< Updated upstream
 	public Optional<Login> findById(Integer arg0) {
 		// TODO Auto-generated method stub
 		return null;
@@ -230,4 +258,17 @@ public class DaoImplementation implements IAdminDao, ICommonDao, IUserDao {
 		return null;
 	}
 	
+=======
+	public List<Product> getProduct(String category) {
+		 q=entityManager.createQuery("SELECT p from Product p where p.category =: category");
+		 entityManager.getEntityManagerFactory().addNamedQuery("fetchByCategory", q);
+		Query nq = entityManager.createNamedQuery("fetchByCategory");
+		nq.setParameter("category",EnumCategory.valueOf(category));
+		@SuppressWarnings("unchecked")
+		List<Product> products = nq.getResultList();
+		return products;
+		}
+
+
+>>>>>>> Stashed changes
 }
