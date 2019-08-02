@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class DoubleString {
+
+	public static void main(String[] args) {
+		
+		 Scanner scan = new Scanner(System.in);
+	        int test_cases = scan.nextInt();
+	        while(test_cases>0){
+	        	String string = scan.next();
+	        	System.out.println();
+	        	int length = string.length();
+	        	if(length%2==0)
+		        	String B = string.substring(length/2);
+		        	else
+		        	String B = string.substring((length/2)+1);
+	        	String B = string.substring(length/2);
+	        	if(A.equals(B)){
+	        		System.out.println(A+"    "+B+"Yes");
+	        	}
+	        	else{
+	        		System.out.println(A+"    "+B+"No");
+	        	}
+	    	test_cases--;
+	        }
+	        scan.close();
+	}
+
+}

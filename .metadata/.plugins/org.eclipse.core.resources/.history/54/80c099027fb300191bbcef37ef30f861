@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Confusion {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+        int N = scan.nextInt();
+        String s = scan.next();
+        
+        String smallest = s.replace("vv", "w");
+        smallest = smallest.replace("vwv", "ww");
+        String largest = s.replace("w","vv");
+        System.out.println(smallest+"   "+smallest.length());
+        System.out.println(largest+"   "+largest.length());
+        scan.close();
+        
+		
+
+	}
+
+}

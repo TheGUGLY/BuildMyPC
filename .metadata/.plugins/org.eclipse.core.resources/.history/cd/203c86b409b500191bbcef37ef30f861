@@ -1,0 +1,11 @@
+package com.app.wrapper;
+
+public class WrapperUpdate {
+	private String updateName;
+	private String updatebrand;
+	private String updatecategory;
+	private String updatedescription;
+	private String updatemodelNumber;
+	private int updateprice;
+	private int updatequantity;
+}

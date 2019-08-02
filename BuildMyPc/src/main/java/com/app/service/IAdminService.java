@@ -1,8 +1,7 @@
 package com.app.service;
 
-import org.springframework.http.ResponseEntity;
-
 import com.app.pojos.Product;
+import com.app.wrapper.WrapperUpdate;
 
 public interface IAdminService {
 
@@ -10,7 +9,7 @@ public interface IAdminService {
 
 	public void deleteProduct(int id);
 
-	public ResponseEntity<Object> updateProduct(Product product);
+	public Product updateProduct(WrapperUpdate product, String id);
 
 	
 }

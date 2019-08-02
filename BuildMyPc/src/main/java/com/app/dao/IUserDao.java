@@ -8,4 +8,5 @@ import com.app.pojos.User;
 public interface IUserDao {
 	User getUser(User user); 
 	public List<Order> getUserOrders(User user);
+	boolean plceOrder(Order order);
 }

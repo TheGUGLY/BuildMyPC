@@ -1,8 +1,7 @@
 package com.app.dao;
 
-import org.springframework.http.ResponseEntity;
-
 import com.app.pojos.Product;
+import com.app.wrapper.WrapperUpdate;
 
 public interface IAdminDao{
 
@@ -10,7 +9,7 @@ public interface IAdminDao{
 
 	public void deleteProduct(Product p);
 
-	public ResponseEntity<Object> updateProduct(Product product);
+	public Product updateProduct(WrapperUpdate product, String id);
 
 
 	

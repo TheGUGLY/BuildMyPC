@@ -20,4 +20,6 @@ public interface ICommonService {
 	public boolean ifExist(String email);
 
 	List<Product> fetchProduct(String category);
+
+	
 }

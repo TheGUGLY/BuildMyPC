@@ -28,10 +28,11 @@
 <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnoreProperties"/>
 <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnore"/>
 <fullyQualifiedTypeName name="com.app.pojos.Order"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.persistence.Enumerated"/>
 <fullyQualifiedTypeName name="javax.persistence.EnumType"/>
 <fullyQualifiedTypeName name="org.hibernate.annotations.ColumnDefault"/>
 <fullyQualifiedTypeName name="com.app.pojos.Login"/>
 <fullyQualifiedTypeName name="com.app.pojos.User"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.persistence.Query"/>
 </qualifiedTypeNameHistroy>

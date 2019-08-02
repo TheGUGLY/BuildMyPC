@@ -6,7 +6,6 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Repository;
 
 import com.app.other.EnumCategory;
@@ -14,6 +13,7 @@ import com.app.pojos.Login;
 import com.app.pojos.Order;
 import com.app.pojos.Product;
 import com.app.pojos.User;
+import com.app.wrapper.WrapperUpdate;
 
 @Repository
 public class DaoImplementation implements IAdminDao,IUserDao,ICommonDao{
@@ -38,10 +38,19 @@ public class DaoImplementation implements IAdminDao,IUserDao,ICommonDao{
 	
 	@Override
 	public List<Product> getProduct(String category) {
-		 q=entityManager.createQuery("SELECT p from Product p where p.category =: category");
-		 entityManager.getEntityManagerFactory().addNamedQuery("fetchByCategory", q);
-		Query nq = entityManager.createNamedQuery("fetchByCategory");
-		nq.setParameter("category",EnumCategory.valueOf(category));
+		Query nq;
+		if(category.equalsIgnoreCase("All")){
+			q=entityManager.createQuery("SELECT p from Product p");
+			entityManager.getEntityManagerFactory().addNamedQuery("fetchByCategory", q);
+			 nq = entityManager.createNamedQuery("fetchByCategory");
+		}
+		else{
+				q=entityManager.createQuery("SELECT p from Product p where p.category =: category");
+				entityManager.getEntityManagerFactory().addNamedQuery("fetchByCategory", q);
+				nq = entityManager.createNamedQuery("fetchByCategory");
+				nq.setParameter("category",EnumCategory.valueOf(category));
+				}
+		
 		@SuppressWarnings("unchecked")
 		List<Product> products = nq.getResultList();
 		return products;
@@ -51,8 +60,6 @@ public class DaoImplementation implements IAdminDao,IUserDao,ICommonDao{
 	@Override
 	public boolean register(User user, Login login) {
 		try{
-			System.out.println(user);
-			System.out.println(login);
 			entityManager.persist(user);
 			entityManager.persist(login);
 			return true;
@@ -94,10 +101,26 @@ public class DaoImplementation implements IAdminDao,IUserDao,ICommonDao{
 
 
 	@Override
-	public ResponseEntity<Object> updateProduct(Product product) {
-			entityManager.persist(product);
-		return null;
+	public Product updateProduct(WrapperUpdate product,String id) {
+			Product p = entityManager.find(Product.class,Integer.parseInt(id));
+			p.setBrand(product.getUpdatebrand());
+			p.setCategory(EnumCategory.valueOf(product.getUpdatecategory()));
+			p.setDescription(product.getUpdatedescription());
+			p.setModelNumber(product.getUpdatemodelNumber());
+			p.setPrice(product.getUpdateprice());
+			p.setQuantity(product.getUpdatequantity());
+			p.setProductName(product.getUpdateName());
+			return p;
 	}
+
+
+	@Override
+	public boolean plceOrder(Order order) {
+		entityManager.persist(order);
+		return true;
+	}
+	
+	
 
 
 	

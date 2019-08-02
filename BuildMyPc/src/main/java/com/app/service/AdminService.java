@@ -1,12 +1,12 @@
 package com.app.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.app.dao.IAdminDao;
 import com.app.pojos.Product;
+import com.app.wrapper.WrapperUpdate;
 
 @Service
 @Transactional
@@ -31,8 +31,8 @@ public class AdminService implements IAdminService{
 
 
 	@Override
-	public ResponseEntity<Object> updateProduct(Product product) {
-		return dao.updateProduct(product);
+	public Product updateProduct(WrapperUpdate product,String id) {
+		return dao.updateProduct(product,id);
 	}
 
 	

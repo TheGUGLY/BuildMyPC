@@ -1,7 +1,9 @@
 package com.app.pojos;
 
 import java.time.LocalDate;
+import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
@@ -12,10 +14,12 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import com.app.other.EnumStatus;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 @Entity
 @Table(name="orders")
@@ -30,7 +34,7 @@ public class Order {
 	
 	@Column(name="Order_Status",length =10)
 	@Enumerated(EnumType.STRING)
-	private EnumStatus status;
+	private EnumStatus status = EnumStatus.PENDING;
 
 	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name="user_email")
@@ -39,7 +43,10 @@ public class Order {
 	
 	@Column(name="total")
 	private double total;
-
+	
+	@JsonManagedReference
+	@OneToMany(fetch = FetchType.LAZY ,mappedBy="order",cascade=CascadeType.ALL)
+	private List<Item> items;
 
 	public int getOrderId() {
 		return orderId;
@@ -81,9 +88,4 @@ public class Order {
 		return "Order [orderId=" + orderId + ", doo=" + doo + ", status=" + status + ", email=" + user + ", total="
 				+ total + "]";
 	}
-
-	
-	
-	
-	
 }
