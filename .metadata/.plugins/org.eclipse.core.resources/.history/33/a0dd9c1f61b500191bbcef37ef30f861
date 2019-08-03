@@ -1,7 +1,6 @@
 package com.app.pojos;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -42,15 +41,12 @@ public class Order {
 	@JsonIgnore
 	private User user;
 	
-	@Column(name="address")
-	private String address;
-	
 	@Column(name="total")
 	private double total;
 	
 	@JsonManagedReference
 	@OneToMany(fetch = FetchType.LAZY ,mappedBy="order",cascade=CascadeType.ALL)
-	private List<OrderProduct> products = new ArrayList<>();
+	private List<Item> items;
 
 	public int getOrderId() {
 		return orderId;
@@ -91,10 +87,5 @@ public class Order {
 	public String toString() {
 		return "Order [orderId=" + orderId + ", doo=" + doo + ", status=" + status + ", email=" + user + ", total="
 				+ total + "]";
-	}
-	
-	public void addProduct(OrderProduct product){
-		products.add(product);
-		product.setOrder(this);
 	}
 }

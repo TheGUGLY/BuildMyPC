@@ -4,16 +4,19 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 import com.app.other.EnumCategory;
 
 @Entity
-@Table(name="Product")
-public class Product {
+@Table(name="OrderProduct")
+public class OrderProduct {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="Product_Id")
@@ -41,11 +44,17 @@ public class Product {
 	@Column(name="Description")
 	private String description;
 	
-	public Product() {
+	@ManyToOne(fetch = FetchType.LAZY)
+	@JoinColumn(name="order_Id")
+	private Order order;
+	
+	
+	public OrderProduct() {
 		super();
 	}
 
-	public Product(int productId, String productName, String brand, String modelNumber, EnumCategory category,
+
+	public OrderProduct(int productId, String productName, String brand, String modelNumber, EnumCategory category,
 			double price, int quantity, String description) {
 		super();
 		this.productId = productId;
@@ -125,9 +134,10 @@ public class Product {
 				+ description + "]";
 	}
 
-	public Product(int productId) {
+	public OrderProduct(int productId) {
 		this.productId = productId;
 	}
 
+	
 	
 }

@@ -42,15 +42,12 @@ public class Order {
 	@JsonIgnore
 	private User user;
 	
-	@Column(name="address")
-	private String address;
-	
 	@Column(name="total")
 	private double total;
 	
 	@JsonManagedReference
 	@OneToMany(fetch = FetchType.LAZY ,mappedBy="order",cascade=CascadeType.ALL)
-	private List<OrderProduct> products = new ArrayList<>();
+	private List<Item> items = new ArrayList<Item>();
 
 	public int getOrderId() {
 		return orderId;
@@ -91,10 +88,5 @@ public class Order {
 	public String toString() {
 		return "Order [orderId=" + orderId + ", doo=" + doo + ", status=" + status + ", email=" + user + ", total="
 				+ total + "]";
-	}
-	
-	public void addProduct(OrderProduct product){
-		products.add(product);
-		product.setOrder(this);
 	}
 }

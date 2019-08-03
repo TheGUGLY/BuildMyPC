@@ -1,6 +1,5 @@
 package com.app.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,9 +13,7 @@ import com.app.service.IUserService;
 @RequestMapping("/User")
 @RestController
 public class UserController {
-		@Autowired
 		private IUserService service;
-		
 		@PostMapping("placeOrder")
 		public boolean order(@RequestBody Order order){
 			System.out.println(order);

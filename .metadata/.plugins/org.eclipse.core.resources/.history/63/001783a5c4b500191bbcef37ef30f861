@@ -41,8 +41,17 @@ public class Product {
 	@Column(name="Description")
 	private String description;
 	
+	private byte[] imageFile;
+	
 	public Product() {
 		super();
+	}
+	public byte[] getImageFile() {
+		return imageFile;
+	}
+
+	public void setImageFile(byte[] imageFile) {
+		this.imageFile = imageFile;
 	}
 
 	public Product(int productId, String productName, String brand, String modelNumber, EnumCategory category,

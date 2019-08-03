@@ -13,7 +13,7 @@ import com.app.other.EnumCategory;
 
 @Entity
 @Table(name="Product")
-public class Product {
+public class OrderProduct {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name="Product_Id")
@@ -41,11 +41,12 @@ public class Product {
 	@Column(name="Description")
 	private String description;
 	
-	public Product() {
+	public OrderProduct() {
 		super();
 	}
 
-	public Product(int productId, String productName, String brand, String modelNumber, EnumCategory category,
+
+	public OrderProduct(int productId, String productName, String brand, String modelNumber, EnumCategory category,
 			double price, int quantity, String description) {
 		super();
 		this.productId = productId;
@@ -125,7 +126,7 @@ public class Product {
 				+ description + "]";
 	}
 
-	public Product(int productId) {
+	public OrderProduct(int productId) {
 		this.productId = productId;
 	}
 
